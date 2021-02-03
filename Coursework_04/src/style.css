@@ -1,0 +1,148 @@
+/*LT*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    position: relative;
+    height: 100vh;
+}
+
+.card1 .titlebar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background: #fa5f43;
+    z-index: 2;
+}
+
+.card1 .titlebar p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.card1 .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card1 .content p {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------------*/
+
+.card2 {
+    position: relative;
+    height: 100vh;
+    background: #86c6ff;
+}
+
+.card2 .titlebar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background: #0b49c4;
+}
+
+.card2 .titlebar p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.card2 .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card2 .content p {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------------*/
+
+.card3 {
+    position: relative;
+    height: 100vh;
+    background: #5a5353;
+}
+
+.card3 .titlebar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background: #0a0101;
+}
+
+.card3 .titlebar p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.card3 .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card3 .content p {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------------*/
+
+.card4 {
+    position: relative;
+    height: 100vh;
+    background: #e31818;
+}
+
+.card4 .titlebar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background: #781e1e;
+}
+
+.card4 .titlebar p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.card4 .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card4 .content p {
+    font-size: 100px;
+    font-weight: 600;
+}
